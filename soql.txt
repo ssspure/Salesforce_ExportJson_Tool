@@ -1,0 +1,9 @@
+# set parent object soql to parentObjectSoql, set child object soql to childObjectSoql
+# if you would like to export data from only one table , please set the soql to parentObjectSoql and set childObjectSoql to empty
+# for example
+# parentObjectSoql = Select Id, Name from Code__c
+# childObjectSoql_1 = 
+# childObjectSoql_2 = 
+parentObjectSoql = Select Id, Name, BillingStreet, AccountNumber, Website, ShippingCountry, Phone, AccountSource from Account
+childObjectSoql_1 = Select Id, LastName, FirstName, Email, Birthdate, LeadSource, Title, AccountId from Contact
+childObjectSoql_2 = Select Id, Name, StageName, CloseDate, Amount, Probability, LeadSource, NextStep,AccountId from Opportunity
