@@ -1,0 +1,18 @@
+<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,43,0">
+        <Label x:Name="labelService" Content="Service :" HorizontalAlignment="Left" Margin="169,70,0,0" VerticalAlignment="Top" Height="37" Width="99" FontSize="20"/>
+        <ComboBox x:Name="dropDown" HorizontalAlignment="Left" Margin="373,74,0,0" VerticalAlignment="Top" Width="234" Height="29"/>
+        <Label x:Name="labelServiceName" Content="Friendly Service Name :" HorizontalAlignment="Left" Margin="169,184,0,0" VerticalAlignment="Top" Width="237" FontSize="20"/>
+        <Label x:Name="labelServiceNameValue" Content="" HorizontalAlignment="Left" Margin="454,183,0,0" VerticalAlignment="Top" Height="44" Width="72" FontSize="20" RenderTransformOrigin="0.524,0.561"/>
+        <Label x:Name="labelStatus" Content="Status :" HorizontalAlignment="Left" Margin="169,298,0,0" VerticalAlignment="Top" Height="35" Width="129" FontSize="20"/>
+        <Label x:Name="labelServicevalue" Content="" HorizontalAlignment="Left" Margin="454,301,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+    </Grid>
+</Window>
